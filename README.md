@@ -19,7 +19,7 @@ The project demonstrates how latent space geometry and vision-language models ca
 
 ## Kaggle Playground
 
-You can explore the full pipeline interactively using the Kaggle notebook: [![Kaggle Notebook](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/saraaymanelwatany/styleclip))
+You can explore the full pipeline interactively using the Kaggle notebook: [![Kaggle Notebook](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/saraaymanelwatany/styleclip)
 
 ⚠️ **Important**
 
