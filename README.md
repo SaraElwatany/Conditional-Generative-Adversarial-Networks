@@ -153,7 +153,7 @@ Potential improvements include:
 
 ## References
 
-1. StyleGAN2
-2. StyleCLIP
-3. CLIP
-4. FFHQ Dataset
+1. [StyleGAN2](https://github.com/NVlabs/stylegan2-ada-pytorch/tree/main)
+2. [StyleCLIP](https://github.com/orpatashnik/StyleCLIP/tree/main)
+3. [CLIP](https://github.com/openai/CLIP)
+4. [FFHQ Dataset](https://github.com/NVlabs/ffhq-dataset)
