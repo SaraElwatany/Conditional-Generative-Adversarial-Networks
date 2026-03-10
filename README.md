@@ -11,15 +11,15 @@ This repository is part of a larger project exploring GAN-based facial attribute
 
 The pipeline follows these steps:
 
-#### Image Generation
+#### 1. Image Generation
 
 Images are generated using a pretrained StyleGAN2 generator trained on the FFHQ dataset.
 
-#### Latent Projection
+#### 2. Latent Projection
 
 Images are projected into the W+ latent space using the StyleGAN2 projector.
 
-#### Boundary Manipulation
+#### 3. Boundary Manipulation
 
 Pretrained InterfaceGAN boundaries are applied to manipulate attributes such as:
 
@@ -27,7 +27,7 @@ Pretrained InterfaceGAN boundaries are applied to manipulate attributes such as:
 * Smile
 * Age
 
-#### Attribute Control
+#### 4. Attribute Control
 
 A scalar α (alpha) controls the strength of the attribute change:
 
@@ -39,7 +39,7 @@ Where:
 * d = boundary direction
 * α = manipulation strength
 
-#### Image Reconstruction
+#### 5. Image Reconstruction
 
 The modified latent vector is passed back through StyleGAN2 to produce the edited image.
 
@@ -50,7 +50,7 @@ The modified latent vector is passed back through StyleGAN2 to produce the edite
 You can try the full pipeline interactively using the Kaggle notebook:
 
 Kaggle Playground:
-[INSERT NOTEBOOK LINK HERE]
+[[INSERT NOTEBOOK LINK HERE](https://www.kaggle.com/code/saraaymanelwatany/styleganv2)]
 
 This notebook allows you to:
 
@@ -78,6 +78,9 @@ Only the following pretrained boundaries are currently used:
 * Smile
 * Age
 
+
+#### Notes:
+
 - Each attribute can be controlled using a configurable alpha value.
 - Increasing alpha increases the strength of the transformation.
 
@@ -103,6 +106,6 @@ Possible improvements include:
 
 ## References
 
-1. StyleGAN2
-2. InterfaceGAN
-3. FFHQ Dataset
+1. StyleGAN2 [https://github.com/NVlabs/stylegan2-ada-pytorch/tree/main]
+2. InterfaceGAN [https://github.com/genforce/interfacegan/tree/master]
+3. FFHQ Dataset [https://github.com/NVlabs/ffhq-dataset]
