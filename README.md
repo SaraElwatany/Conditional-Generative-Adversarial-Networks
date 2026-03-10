@@ -14,7 +14,7 @@ The edits are performed by optimizing the latent representation so that the gene
 
 ## Kaggle Playground
 
-You can experiment with the full pipeline interactively using the Kaggle notebook: [![Kaggle Notebook](https://kaggle.com/static/images/open-in-kaggle.svg)]([https://www.kaggle.com/code/saraaymanelwatany/styleganv2](https://www.kaggle.com/code/saraaymanelwatany/styleclip))
+You can experiment with the full pipeline interactively using the Kaggle notebook: [![Kaggle Notebook](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/saraaymanelwatany/styleclip)
 
 ⚠️ **Important:**:
 Before running the notebook:
