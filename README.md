@@ -29,9 +29,11 @@ Pretrained InterfaceGAN boundaries are applied to manipulate attributes such as:
 
 #### 4. Attribute Control
 
-A scalar α (alpha) controls the strength of the attribute change:
+A scalar **α (alpha)** controls the strength of the attribute change:
 
-                             𝑤′ = 𝑤 + 𝛼 𝑑
+<p align="center">
+w′ = w + αd
+</p>
 
 Where:
 
