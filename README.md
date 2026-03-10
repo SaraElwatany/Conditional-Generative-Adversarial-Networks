@@ -15,11 +15,11 @@ The pipeline follows these steps:
 
 Images are generated using a pretrained StyleGAN2 generator trained on the FFHQ dataset.
 
-### * Latent Projection
+* ### Latent Projection
 
 Images are projected into the W+ latent space using the StyleGAN2 projector.
 
-### * Boundary Manipulation
+* ### Boundary Manipulation
 
 Pretrained InterfaceGAN boundaries are applied to manipulate attributes such as:
 
@@ -27,7 +27,7 @@ Pretrained InterfaceGAN boundaries are applied to manipulate attributes such as:
 * Smile
 * Age
 
-### * Attribute Control
+* ### Attribute Control
 
 A scalar α (alpha) controls the strength of the attribute change:
 
@@ -39,7 +39,7 @@ Where:
 * d = boundary direction
 * α = manipulation strength
 
-### * Image Reconstruction
+* ### Image Reconstruction
 
 The modified latent vector is passed back through StyleGAN2 to produce the edited image.
 
