@@ -6,11 +6,12 @@ The approach modifies facial attributes such as pose, smile, and age by moving a
 
 This repository is part of a larger project exploring GAN-based facial attribute manipulation.
 
+
 ## Method Overview
 
 The pipeline follows these steps:
 
-### * Image Generation
+### *Image Generation
 
 Images are generated using a pretrained StyleGAN2 generator trained on the FFHQ dataset.
 
@@ -41,6 +42,7 @@ Where:
 ### * Image Reconstruction
 
 The modified latent vector is passed back through StyleGAN2 to produce the edited image.
+
 
 
 ## Playground (Kaggle Notebook)
@@ -85,30 +87,27 @@ edited_latent = latent + alpha * pose_boundary
 Increasing alpha increases the strength of the transformation.
 
 
+
 ## Limitations
 
-Projection using the StyleGAN2 projector can be computationally expensive.
+* Projection using the StyleGAN2 projector can be computationally expensive.
+* Boundaries are currently available only for a limited number of attributes.
+* Additional attributes (e.g., hair color, hairstyle) would require training new boundaries using labeled data.
 
-Boundaries are currently available only for a limited number of attributes.
-
-Additional attributes (e.g., hair color, hairstyle) would require training new boundaries using labeled data.
 
 
 ## Future Work
 
 Possible improvements include:
 
-Training additional InterfaceGAN boundaries for more attributes.
-
-Improving projection speed using encoders such as e4e.
-
-Combining boundary manipulation with text-guided methods such as StyleCLIP.
+1. Training additional InterfaceGAN boundaries for more attributes.
+2. Improving projection speed using encoders such as e4e.
+3. Combining boundary manipulation with text-guided methods such as StyleCLIP.
 
 
-References
+
+## References
 
 StyleGAN2
-
 InterfaceGAN
-
 FFHQ Dataset
