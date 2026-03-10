@@ -50,7 +50,7 @@ The modified latent vector is passed back through StyleGAN2 to produce the edite
 You can try the full pipeline interactively using the Kaggle notebook:
 
 Kaggle Playground:
-[[INSERT NOTEBOOK LINK HERE](https://www.kaggle.com/code/saraaymanelwatany/styleganv2)]
+[Notebook](https://www.kaggle.com/code/saraaymanelwatany/styleganv2)
 
 This notebook allows you to:
 
@@ -106,6 +106,6 @@ Possible improvements include:
 
 ## References
 
-1. StyleGAN2 [https://github.com/NVlabs/stylegan2-ada-pytorch/tree/main]
-2. InterfaceGAN [https://github.com/genforce/interfacegan/tree/master]
-3. FFHQ Dataset [https://github.com/NVlabs/ffhq-dataset]
+1. [StyleGAN2] (https://github.com/NVlabs/stylegan2-ada-pytorch/tree/main)
+2. [InterfaceGAN] (https://github.com/genforce/interfacegan/tree/master)
+3. [FFHQ Dataset] (https://github.com/NVlabs/ffhq-dataset)
