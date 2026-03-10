@@ -11,7 +11,7 @@ This repository is part of a larger project exploring GAN-based facial attribute
 
 The pipeline follows these steps:
 
-### *Image Generation
+* ### Image Generation
 
 Images are generated using a pretrained StyleGAN2 generator trained on the FFHQ dataset.
 
