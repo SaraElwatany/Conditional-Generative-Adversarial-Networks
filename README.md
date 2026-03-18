@@ -17,6 +17,22 @@ Both methods operate on StyleGAN2 latent representations and allow modification 
 The project demonstrates how latent space geometry and vision-language models can be leveraged to perform realistic image editing without retraining the generator.
 
 
+## Branch Structure
+
+```
+main/
+│
+├── Task 1 - GANS.pdf         # Kaggle notebook: train, validate, save
+│
+└── README.md                 # The current file
+│
+└── projector.py              # A modified version of the python script provided by stylegan2 authors to skip video saving (saves time)
+│
+└── run_optimization.py       # A modified version of the python script provided by styleclip authors to update the function calls to match upgraded dependencies
+│
+└── styleclip_interfacegan.ipynb     # The final playground notebook (combining both approaches)
+```
+
 ## Kaggle Playground
 
 You can explore the full pipeline interactively using the Kaggle notebook: [![Kaggle Notebook](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/saraaymanelwatany/styleclip)
